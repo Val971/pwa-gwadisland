@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Montserrat", sans-serif, Arial, sans-serif; */
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+ul,
+li {
+  list-style: none;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+
+/* Portrait phones */
+@media screen and (min-width: 667px) {
+}
+/* Phones */
+@media screen and (max-width: 767px) {
+}
+/* Tablette */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
