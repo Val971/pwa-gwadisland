@@ -1,8 +1,9 @@
 // import Categories from "@/components/Categories";
 // import Header from "@/sections/Header";
-// import Footer from "@/sections/Footer/Footer";
 // import Banner from "@/components/Banner";
-// import Contact from "@/components/Contact";
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
+
 // import About from "@/components/About";
 // import Navbar from '@/sections/NavBar';
 
@@ -23,8 +24,8 @@ export default function Welcome() {
       </Section>  */}
       {/* <Banner /> */}
 
-      {/* <Contact />
-      <Footer /> */}
+      <Contact />
+      <Footer />
     </>
   );
 }

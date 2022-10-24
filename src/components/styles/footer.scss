@@ -1,0 +1,97 @@
+.footer-content {
+  color: white;
+  .firstfooter {
+    background-color: #162e44;
+    font-size: 1.6vmin;
+    .firstfooter-content {
+      max-width: 1124px;
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+
+      .col1 {
+        h3 {
+          font-size: 4vmin;
+          margin-bottom: 2vmin;
+        }
+        p {
+          margin-bottom: 1vmin;
+        }
+      }
+      .col2 {
+        h3 {
+          margin-bottom: 2vmin;
+          font-size: 3vmin;
+        }
+        p {
+          margin-bottom: 1vmin;
+        }
+      }
+    }
+  }
+  .lastfooter {
+    background-color: #11263a;
+    p {
+      padding-left: 5rem;
+      padding-bottom: 2rem;
+      padding-top: 2rem;
+
+      font-size: 1.4vmin;
+
+      max-width: 1124px;
+      background-color: #11263a;
+      margin: auto;
+      color: #ffffff4d;
+    }
+  }
+}
+
+/* Portrait phones */
+@media screen and (min-width: 667px) {
+}
+/* Phones */
+@media screen and (max-width: 767px) {
+  .footer-content {
+    .lastfooter p {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      font-size: 3.4vmin;
+    }
+    .firstfooter {
+      .firstfooter-content {
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        .col1 {
+          h3 {
+            font-size: 7vmin;
+            margin-bottom: 2vmin;
+          }
+          p {
+            font-size: 4.3vmin;
+          }
+        }
+        .col2 {
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+          p {
+            margin-bottom: 3vmin;
+            font-size: 4.3vmin;
+          }
+          h3 {
+            margin-bottom: 4vmin;
+            font-size: 6.5vmin;
+          }
+        }
+      }
+    }
+  }
+}
+/* Tablette */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer-content .firstfooter .firstfooter-content {
+    margin: auto 3.5rem;
+  }
+}
