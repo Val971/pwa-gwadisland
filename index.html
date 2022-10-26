@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- https://web.dev/uses-rel-preconnect -->
     <link rel="preconnect" href="https://storage.googleapis.com">
-
+    <link rel="manifest" href="/manifest.json" />
     <meta name="description" content="Starter kit for modern web applications">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="alternate icon" href="/favicon.ico" type="image/png" sizes="16x16">
@@ -53,5 +53,33 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("./sw.js")
+          .then( (registration)=> {
+            // Registration was successful
+            console.log(
+              "ServiceWorker registration successful with scope: ",
+              registration.scope
+            );
+          })
+          .catch( (err)=> {
+            // registration failed :(
+            console.log("ServiceWorker registration failed: ", err);
+          });
+      }
+      window.addEventListener("beforeinstallprompt", function (e) {
+        e.userChoice.then(function (choiceResult) {
+          console.log(choiceResult.outcome);
+          if (choiceResult.outcome == "dismissed") {
+            console.log("User cancelled home screen install");
+          } else {
+            // 如果用户将网页添加到主屏幕
+            console.log("User added to home screen");
+          }
+        });
+      });
+    </script>
   </body>
 </html>

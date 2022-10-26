@@ -1,6 +1,9 @@
 {
-  "name": "React PWA",
-  "short_name": "reactpwa",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Gwadisland",
+  "short_name": "Gwadisland",
   "description": "Starter kit for modern web applications",
   "theme_color": "#ffffff",
   "icons": [
@@ -20,5 +23,6 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "background_color": "#F4F6FE"
 }
