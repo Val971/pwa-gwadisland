@@ -1,0 +1,58 @@
+.login-content {
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.login-content .login-header h2 {
+  margin-bottom: 4vmin;
+  font-size: 4vmin;
+}
+.login-content .login-header p {
+  margin-bottom: 5vmin;
+  font-weight: 600;
+}
+.login-content .login-header .alert {
+  margin-bottom: 4vmin;
+}
+
+/* Portrait phones */
+/* Phones */
+@media screen and (max-width: 767px) {
+  .login-content {
+    justify-content: center;
+    display: flex;
+    margin: auto 1rem;
+    flex-direction: column;
+    max-width: none;
+  }
+  .login-content .login-header h2 {
+    margin-bottom: 7vmin;
+    font-size: 2rem;
+  }
+  .login-content .login-header p {
+    margin-bottom: 5vmin;
+    font-weight: 600;
+  }
+}
+/* Tablette */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .login-content {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .login-content .login-header h2 {
+    font-size: 7vmin;
+    margin-bottom: 9vmin;
+  }
+  .login-content .login-header p {
+    margin-bottom: 5vmin;
+    font-weight: 600;
+  }
+} /*# sourceMappingURL=login.css.map */

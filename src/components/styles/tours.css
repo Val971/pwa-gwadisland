@@ -1,0 +1,36 @@
+.tours-content {
+  margin-top: 20rem;
+}
+.tours-content p:first-of-type {
+  color: #151515;
+  font-size: 1.3rem;
+}
+.tours-content h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif, Arial, sans-serif;
+  letter-spacing: normal;
+  color: #151515;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+/* Portrait phones */
+/* Phones */
+@media screen and (max-width: 767px) {
+  .tour-card-content {
+    flex-direction: column;
+  }
+  .tour-card-content .tour-card-desc {
+    padding: 30px 5% 30px 5%;
+  }
+}
+/* Tablette */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .tours-content {
+    margin-top: 14rem;
+  }
+} /*# sourceMappingURL=tours.css.map */

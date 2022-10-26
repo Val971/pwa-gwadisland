@@ -1,0 +1,64 @@
+.contact {
+  background-color: #2d848a;
+  padding: 15vmin;
+}
+.contact .contact-content {
+  margin: auto;
+  max-width: 1124px;
+}
+.contact .contact-content .contact-header {
+  color: white;
+  text-align: center;
+}
+.contact .contact-content .contact-header h3 {
+  font-size: 4.5vmin;
+}
+.contact .contact-content .contact-header p {
+  margin-top: 2vmin;
+  margin-bottom: 8vmin;
+}
+.contact .contact-content .contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3vmin;
+}
+.contact .contact-content .contact-form form .textfild-1 {
+  grid-column: 1 span;
+}
+.contact .contact-content .contact-form form .textfild-2 {
+  grid-column: 1 span;
+}
+.contact .contact-content .contact-form form .textfild-3 {
+  grid-column: 2 span;
+}
+.contact .contact-content .contact-form form .btn {
+  border: solid;
+  color: whitesmoke;
+  min-width: 160px;
+  padding: 14px 36px;
+  background-color: transparent;
+  box-shadow: none;
+  border-width: 0.1rem;
+}
+.contact .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: white;
+}
+.contact .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+
+/* Portrait phones */
+/* Phones */
+@media screen and (max-width: 767px) {
+  .contact {
+    padding: 8rem 1rem;
+  }
+  .contact .contact-content .contact-header h3 {
+    font-size: 4.5vmin;
+  }
+  .contact .contact-content .contact-header p {
+    margin-top: 7vmin;
+    font-size: 3.8vmin;
+  }
+}
+/* Tablette */ /*# sourceMappingURL=contact copy.css.map */

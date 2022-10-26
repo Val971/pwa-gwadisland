@@ -1,0 +1,238 @@
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  box-shadow: none !important;
+}
+.css-l086p4-MuiImageListItem-root .MuiImageListItem-img {
+  -webkit-mask-image: none !important;
+}
+
+.postview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 84rem;
+  margin: auto;
+  margin-top: 21vmin;
+
+  h3 {
+    color: #373f41;
+  }
+  &-contact {
+    margin-bottom: 7vmin;
+    margin-left: 2vmin;
+
+    h6 {
+      margin-bottom: 4vmin;
+      margin-top: 6vmin;
+    }
+
+    .contact-line {
+      display: flex;
+      margin-bottom: 2vmin;
+      p {
+        margin-left: 1vmin;
+        max-width: 16vmin;
+      }
+    }
+  }
+  &-content {
+    margin: 1rem 3.5rem;
+    img {
+      max-width: 100%;
+  }
+    .light-p {
+      color: #9b9b9b;
+    }
+    h6 {
+      font-size: 2vmin;
+    }
+    h3 {
+      font-size: 4vmin;
+      margin-top: 0.6rem;
+      margin-bottom: 1rem;
+    }
+  }
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .stars {
+      font-size: 2vmin;
+      svg {
+        color: #ffcc00;
+      }
+    }
+  }
+  .post-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-top: 14vmin;
+  }
+}
+.postview-img {
+  width: 100%;
+  height: 50vh;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+  background-color:transparent!important;
+}
+/* Portrait phones */
+@media screen and (min-width: 667px) {
+}
+/* Phones */
+@media screen and (max-width: 767px) {
+  .accordion-content {
+    margin: auto 1rem;
+}
+  .light-p{
+    .contact-line {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      p{
+        font-size: 3vmin;
+      }
+  }
+  }
+  .postview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 21vmin!important;
+    .swiper {
+      height: 20rem;
+      width: 24rem;
+    }
+    &-contact {
+      
+      h6 {
+        margin-top: 6vmin;
+      }
+      p {
+        margin-left: 5vmin;
+        margin-top: 2vmin;
+      }
+      .contact-line {
+        display: flex;
+    font-size: 4vmin;
+    margin-left: 1.6rem;
+    margin-top: 1rem;
+        p {
+          max-width: 45vmin;
+        }
+      }
+    }
+    &-content {
+      margin: 0;
+      img {
+        max-width: 100%;
+    }
+      .light-p {
+        margin-left: 2rem;
+        color: #9b9b9b;
+        margin-top: 0.5rem;
+      }
+      h6 {
+        font-size: 4vmin;
+      }
+      h3 {
+        font-size: 7vmin;
+        margin-top: 0.6rem;
+        margin-bottom: 0rem;
+        text-align: left;
+        padding-left: 2rem;
+        padding-top: 2rem;
+      }
+    }
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .stars {
+        font-size: 5vmin;
+        svg {
+          color: #ffcc00;
+        }
+      }
+    }
+    .post-gallery {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+      margin-top: 14vmin;
+    }
+  }
+  .postview-img {
+    width: 100%;
+    height: 50vh;
+    background-position: bottom;
+    background-size: cover;
+  }
+}
+/* Tablette */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+    box-shadow: none !important;
+  }
+  .css-l086p4-MuiImageListItem-root .MuiImageListItem-img {
+    -webkit-mask-image: none !important;
+  }
+  .postview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 21vmin;
+    &-contact {
+      margin-bottom: 7vmin;
+
+      h6 {
+        margin-bottom: 4vmin;
+        margin-top: 6vmin;
+      }
+      p {
+        margin-left: 5vmin;
+        margin-top: 2vmin;
+      }
+    }
+    &-content {
+      margin: 1rem 3.5rem;
+      .light-p {
+        margin-top: 4vmin;
+        color: #9b9b9b;
+      }
+      h6 {
+        font-size: 4vmin;
+      }
+      h3 {
+        font-size: 7vmin;
+        margin-top: 0.6rem;
+        margin-bottom: 1rem;
+      }
+    }
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .stars {
+        font-size: 5vmin;
+        svg {
+          color: #ffcc00;
+        }
+      }
+    }
+    .post-gallery {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+      margin-top: 14vmin;
+    }
+  }
+  .postview-img {
+    width: 100%;
+    height: 50vh;
+    background-position: bottom;
+    background-size: cover;
+  }
+}

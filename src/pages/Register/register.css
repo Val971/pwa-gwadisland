@@ -1,0 +1,68 @@
+.register-content {
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.register-content h3 {
+  font-size: 7vmin;
+  margin-bottom: 9vmin;
+}
+.register-content p {
+  margin-bottom: 5vmin;
+  font-weight: 600;
+}
+.register-content .register-header h2 {
+  margin-bottom: 4rem;
+  font-size: 4vmin;
+}
+.register-content .register-header .alert {
+  margin-bottom: 4vmin;
+}
+
+/* Portrait phones */
+/* Phones */
+@media screen and (max-width: 767px) {
+  .register-content {
+    justify-content: center;
+    margin: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vmin;
+    max-width: none;
+  }
+  .register-content h3 {
+    font-size: 7vmin;
+    margin-bottom: 9vmin;
+  }
+  .register-content p {
+    margin-bottom: 5vmin;
+    font-weight: 600;
+  }
+  .register-content .register-header h2 {
+    margin-bottom: 7vmin;
+    font-size: 2rem;
+  }
+}
+/* Tablette */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .register-content {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30vmin;
+  }
+  .register-content h3 {
+    font-size: 7vmin;
+    margin-bottom: 9vmin;
+  }
+  .register-content p {
+    margin-bottom: 5vmin;
+    font-weight: 600;
+  }
+} /*# sourceMappingURL=register.css.map */

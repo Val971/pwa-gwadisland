@@ -1,0 +1,102 @@
+.post-content {
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+.post-content:hover {
+  transition: all 0.2s ease-out;
+}
+.post-content .rate {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.post-content:hover:before {
+  transform: scale(2.15);
+}
+.post-content .light-p {
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+  display: flex;
+  align-items: center;
+  color: slategrey;
+}
+.post-content p {
+  font-size: 1.5vmin;
+  max-width: 16rem;
+}
+.post-content h3 {
+  margin-bottom: 1rem;
+}
+.post-content .line {
+  width: 150px;
+  height: 1px;
+  background: #d0d0d0;
+  margin-bottom: 0.8rem;
+  border-radius: 5px;
+}
+.post-content .post-description {
+  padding: 1rem;
+}
+.post-content .post-description-header {
+  display: flex;
+  justify-content: space-between;
+}
+.post-content .post-description-header .stars svg {
+  color: #ffcc00;
+}
+.post-content .post-description .chips {
+  margin-top: 0.8rem;
+  font-size: 1vmin;
+}
+.post-content .post-description .chips-item {
+  font-size: 1vmin;
+  margin-right: 0.3rem;
+}
+
+p.categorie-list-filter {
+  font-weight: 500;
+}
+
+.image-item {
+  width: 282px !important;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0.1rem;
+}
+
+.css-hk6gwf-MuiImageListItemBar-subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.css-ztrqiq-MuiImageListItemBar-root {
+  border-radius: 0 0 5px 5px !important;
+}
+
+/* Portrait phones */
+/* Phones */
+@media screen and (max-width: 767px) {
+  .post-content {
+    box-shadow: none;
+    margin-right: 1rem;
+    width: 282px;
+  }
+  .post-content .desc {
+    font-weight: 300;
+  }
+  .post-content h3 {
+    margin-bottom: 1rem;
+    font-size: 4vmin;
+    margin-bottom: 0%;
+  }
+  .post-content .chips {
+    display: none;
+  }
+  .post-content .line {
+    display: none;
+  }
+  .post-content .post-description {
+    padding: 0.6rem;
+  }
+}
+/* Tablette */ /*# sourceMappingURL=categoriesItem.css.map */

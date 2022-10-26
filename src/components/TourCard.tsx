@@ -1,4 +1,3 @@
-import React from 'react';
 import { MdLocationOn } from 'react-icons/md';
 import LazyLoad from 'react-lazy-load';
 import { Link } from 'react-router-dom';

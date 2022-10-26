@@ -1,0 +1,86 @@
+
+    form {
+      display: grid;
+      grid-row-gap: 2vmin;
+  
+      .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+        z-index: 0;
+      }
+      .login-remember {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      Button {
+        height: 6vmin;
+      }
+    }
+    p.register {
+      margin-top: 6vmin;
+      text-align: center;
+    }
+    span.bright {
+      color: #00a693;
+      font-weight: bold;
+    }
+  
+  
+  /* Portrait phones */
+  @media screen and (min-width: 667px) {
+  }
+  /* Phones */
+  @media screen and (max-width: 767px) {
+
+      form {
+        display: grid;
+        grid-row-gap: 6vmin;
+  
+        .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+          z-index: 0;
+        }
+        .login-remember {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        Button {
+          height: 15vmin;
+        }
+      }
+      p.register {
+        margin-top: 6vmin;
+        text-align: center;
+      }
+      span.bright {
+        color: #00a693;
+        font-weight: bold;
+      }
+  }
+  /* Tablette */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+      form {
+        display: grid;
+        grid-row-gap: 2vmin;
+  
+        .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+          z-index: 0;
+        }
+        .login-remember {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        Button {
+          height: 6vmin;
+        }
+      }
+      p.register {
+        margin-top: 6vmin;
+        text-align: center;
+      }
+      span.bright {
+        color: #00a693;
+        font-weight: bold;
+      }
+  }
+  

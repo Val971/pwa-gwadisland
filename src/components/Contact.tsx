@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 
@@ -25,6 +23,7 @@ export default function Footer() {
               name="name"
               variant="outlined"
               required
+              sx={{ border: '1px solid white', borderRadius: 1, color: 'white' }}
             />
             <TextField
               className="textfild-2"
@@ -33,6 +32,7 @@ export default function Footer() {
               label="Your email"
               variant="outlined"
               required
+              sx={{ border: '1px solid white', borderRadius: 1, color: 'white' }}
             />
             <TextField
               className="textfild-3"
@@ -43,6 +43,7 @@ export default function Footer() {
               required
               rows={4}
               variant="outlined"
+              sx={{ border: '1px solid white', borderRadius: 1, color: 'white' }}
             />
             <Button className="btn" type="submit" variant="contained">
               {'send'}

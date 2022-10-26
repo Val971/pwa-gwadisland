@@ -1,0 +1,64 @@
+.work-content h3 {
+  color: #151515;
+  font-size: 2.3rem;
+  text-align: center;
+}
+.work-content .work-section {
+  display: flex;
+  margin-top: 11vmin;
+}
+.work-content .work-section .work-card .number-outline {
+  height: 70px;
+  width: 70px;
+  font-size: 1.75rem;
+  border-radius: 50%;
+  line-height: 66px;
+  border: 2px solid #ef476f;
+  background-color: transparent;
+  color: #ef476f;
+  margin: 0 auto 1.5rem auto;
+  text-align: center;
+}
+.work-content .work-section .work-card p:first-of-type {
+  font-size: 3vmin;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+img.swiper-lazy {
+  width: 28rem;
+}
+
+.work-section-left,
+.work-section-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+/* Portrait phones */
+/* Phones */
+@media screen and (max-width: 767px) {
+  .work-content .work-section {
+    flex-direction: column;
+  }
+  .work-content .work-section img.swiper-lazy {
+    width: 87%;
+  }
+  .work-content .work-section .work-card {
+    margin: 3rem auto;
+  }
+  .work-content .work-section .work-card p:first-of-type {
+    font-size: 5vmin;
+  }
+}
+/* Tablette */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .work-section img.swiper-lazy {
+    width: 22rem;
+  }
+  .work-card {
+    padding-top: 2rem;
+  }
+} /*# sourceMappingURL=work.css.map */

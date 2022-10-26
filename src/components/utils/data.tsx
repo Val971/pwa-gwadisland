@@ -1,0 +1,535 @@
+export const PostsList: any = [
+  {
+    id: 1,
+    cover: '../assets/activity-couple-explore-2851068.png',
+    title: 'Online Courses',
+    city: 'Abymes',
+    stars: '0',
+    record: 'populard',
+    desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.',
+    images: [
+      {
+        img: '../assets/activity-couple-explore-2851068.png',
+        title: 'Breakfast',
+        id: 1,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        title: 'Breakfast',
+        id: 2,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+        title: 'Burger',
+        id: 3,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+        title: 'Camera',
+        id: 4,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+        title: 'Coffee',
+        id: 5,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+        title: 'Hats',
+        id: 6,
+      },
+    ],
+  },
+  {
+    id: 2,
+    cover: '../assets/cuisine-delicious-dinner-958545.png',
+    title: 'Earn A Certificates',
+    city: 'Gosier',
+    stars: '5',
+    record: 'populard',
+    desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.',
+    images: [
+      {
+        img: '../assets/cuisine-delicious-dinner-958545.png',
+        title: 'Breakfast',
+        id: 1,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        title: 'Breakfast',
+        id: 2,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+        title: 'Burger',
+        id: 3,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+        title: 'Camera',
+        id: 4,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+        title: 'Coffee',
+        id: 5,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+        title: 'Hats',
+        id: 6,
+      },
+    ],
+  },
+  {
+    id: 3,
+    cover: '../assets/carrots-crate-food-1508666.png',
+    title: 'Learn with Expert',
+    city: 'Le Moule',
+    stars: '10',
+    record: 'populard',
+    desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.',
+    images: [
+      {
+        img: '../assets/carrots-crate-food-1508666.png',
+        title: 'Breakfast',
+        id: 1,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        title: 'Breakfast',
+        id: 2,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+        title: 'Burger',
+        id: 3,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+        title: 'Camera',
+        id: 4,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+        title: 'Coffee',
+        id: 5,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+        title: 'Hats',
+        id: 6,
+      },
+    ],
+  },
+  {
+    id: 4,
+    cover: '../assets/bread-coffee-cuisine-374052.png',
+    title: 'Earn A Certificates',
+    city: 'Goyave',
+    stars: '1',
+    record: 'populard',
+    desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.',
+    images: [
+      {
+        img: '../assets/bread-coffee-cuisine-374052.png',
+        title: 'Breakfast',
+        id: 1,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        title: 'Breakfast',
+        id: 2,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+        title: 'Burger',
+        id: 3,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+        title: 'Camera',
+        id: 4,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+        title: 'Coffee',
+        id: 5,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+        title: 'Hats',
+        id: 6,
+      },
+    ],
+  },
+  {
+    id: 5,
+    cover: '../assets/cuisine-delicious-dinner-958545.png',
+    title: 'Earn A Certificates',
+    city: 'Goyave',
+    stars: '1',
+    record: 'populard',
+    desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.',
+    images: [
+      {
+        img: '../assets/cuisine-delicious-dinner-958545.png',
+        title: 'Breakfast',
+        id: 1,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        title: 'Breakfast',
+        id: 2,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+        title: 'Burger',
+        id: 3,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+        title: 'Camera',
+        id: 4,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+        title: 'Coffee',
+        id: 5,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+        title: 'Hats',
+        id: 6,
+      },
+    ],
+  },
+  {
+    id: 6,
+    cover: '../assets/celebration-colorful-colourful-1684187.png',
+    title: 'Online Courses',
+    city: 'Goyave',
+    stars: '5',
+    record: 'recommended',
+    desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.',
+    images: [
+      {
+        img: '../assets/celebration-colorful-colourful-1684187.png',
+        title: 'Breakfast',
+        id: 1,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        title: 'Breakfast',
+        id: 2,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+        title: 'Burger',
+        id: 3,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+        title: 'Camera',
+        id: 4,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+        title: 'Coffee',
+        id: 5,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+        title: 'Hats',
+        id: 3,
+      },
+    ],
+  },
+  {
+    id: 7,
+    cover: '../assets/bread-coffee-cuisine-374052.png',
+    title: 'Earn A Certificates',
+    city: 'Abymes',
+    stars: '10',
+    record: 'recommended',
+    desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.',
+    images: [
+      {
+        img: '../assets/bread-coffee-cuisine-374052.png',
+        title: 'Breakfast',
+        id: 1,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        title: 'Breakfast',
+        id: 2,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+        title: 'Burger',
+        id: 3,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+        title: 'Camera',
+        id: 4,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+        title: 'Coffee',
+        id: 5,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+        title: 'Hats',
+        id: 6,
+      },
+    ],
+  },
+  {
+    id: 8,
+    cover: '../assets/cache_2481531212.png',
+    title: 'Learn with Expert',
+    city: 'Jarry',
+    stars: '0',
+    record: 'recommended',
+    desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.',
+    images: [
+      {
+        img: '../assets/cache_2481531212.png',
+        title: 'Breakfast',
+        id: 1,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        title: 'Breakfast',
+        id: 2,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+        title: 'Burger',
+        id: 3,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+        title: 'Camera',
+        id: 4,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+        title: 'Coffee',
+        id: 5,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+        title: 'Hats',
+        id: 6,
+      },
+    ],
+  },
+  {
+    id: 9,
+    cover: '../assets/tour_img-2101022-146.png',
+    title: 'Earn A Certificates',
+    city: 'Abymes',
+    stars: '0',
+    record: 'recommended',
+    desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.',
+    images: [
+      {
+        img: '../assets/tour_img-2101022-146.png',
+        title: 'Breakfast',
+        id: 1,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        title: 'Breakfast',
+        id: 2,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+        title: 'Burger',
+        id: 3,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+        title: 'Camera',
+        id: 4,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+        title: 'Coffee',
+        id: 5,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+        title: 'Hats',
+        id: 6,
+      },
+    ],
+  },
+  {
+    id: 10,
+    cover: '../assets/bread-coffee-cuisine-374052.png',
+    title: 'Earn A Certificates',
+    city: 'Abymes',
+    stars: '4',
+    record: 'recommended',
+    desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.',
+    images: [
+      {
+        img: '../assets/bread-coffee-cuisine-374052.png',
+        title: 'Breakfast',
+        id: 1,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        title: 'Breakfast',
+        id: 2,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+        title: 'Burger',
+        id: 3,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+        title: 'Camera',
+        id: 4,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+        title: 'Coffee',
+        id: 5,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+        title: 'Hats',
+        id: 6,
+      },
+    ],
+  },
+  {
+    id: 11,
+    cover: '../assets/spa.jpg',
+    title: 'Span discover',
+    city: 'Abymes',
+    stars: 5,
+    record: 'hot',
+    desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.',
+    images: [
+      {
+        img: '../assets/spa.jpg',
+        title: 'Breakfast',
+        id: 1,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        title: 'Breakfast',
+        id: 2,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+        title: 'Burger',
+        id: 3,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+        title: 'Camera',
+        id: 4,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+        title: 'Coffee',
+        id: 5,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+        title: 'Hats',
+        id: 6,
+      },
+    ],
+  },
+  {
+    id: 12,
+    cover: '../assets/pexels-rok-romih-4887433.jpg',
+    title: 'Span discover',
+    city: 'Abymes',
+    stars: 3,
+    record: 'hot',
+    desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.',
+    images: [
+      {
+        img: '../assets/pexels-rok-romih-4887433.jpg',
+        title: 'Breakfast',
+        id: 1,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        title: 'Breakfast',
+        id: 2,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+        title: 'Burger',
+        id: 3,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+        title: 'Camera',
+        id: 4,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+        title: 'Coffee',
+        id: 5,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+        title: 'Hats',
+        id: 6,
+      },
+    ],
+  },
+  {
+    id: 13,
+    cover: '../assets/pexels-anderson-guerra-1115128.jpg',
+    title: 'Spa discover',
+    city: 'Abymes',
+    stars: 1,
+    record: 'hot',
+    desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.',
+    images: [
+      {
+        img: '../assets/pexels-anderson-guerra-1115128.jpg',
+        title: 'Breakfast',
+        id: 1,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        title: 'Breakfast',
+        id: 2,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
+        title: 'Burger',
+        id: 3,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+        title: 'Camera',
+        id: 4,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+        title: 'Coffee',
+        id: 5,
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+        title: 'Hats',
+        id: 6,
+      },
+    ],
+  },
+];

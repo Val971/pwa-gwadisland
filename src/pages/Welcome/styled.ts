@@ -12,7 +12,7 @@ const Section = styled('div')({
   '@media screen and (min-width: 667px)': {},
   /* Phones */
   '@media screen and (max-width: 767px)': {
-    margin: '8rem 1rem',
+    margin: '3rem 1rem',
     maxWidth: '1227px',
   },
   /* Tablette */

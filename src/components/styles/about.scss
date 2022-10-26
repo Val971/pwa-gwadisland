@@ -1,0 +1,117 @@
+.about {
+    display: flex;
+    margin: 20rem auto;
+    img.swiper-lazy {
+      width: 50%;
+  }
+  .about-content {
+    padding: auto 5rem;
+    padding: 0px 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    h2 {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-weight: 600;
+      letter-spacing: normal;
+      color: #373f41;
+      font-size: 36px;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 1.8vmin;
+    }
+  }
+}
+.about-btn {
+  display: flex;
+  margin-top: 2rem;
+  .ctn {
+    padding: 8px 15px;
+    color: #fff;
+    border-color: #00a693;;
+    border-style: solid;
+    min-width: 160px;
+    background-color: #00a693;;
+    margin-right: 3rem;
+  
+  }
+  .ctn:before {
+      // font-family: FontAwesome;
+      content:"\f07a";
+      position: absolute;
+      top: 11px;
+      left: -30px;
+      transition: all 300ms ease;
+    }
+  
+  .ctn-full {
+    padding: 8px 15px;
+    padding: 8px 15px;
+    background-color: white;
+    color: #00a693;
+    border-style: solid;
+    min-width: 160px;
+  }
+}
+.banner-img {
+  margin: 0;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #00a693!important;
+}
+.css-1aquho2-MuiTabs-indicator {
+  background-color: #00a693!important;
+}
+.css-19kzrtu {
+  padding-left: 0px!important;
+  display: flex;
+}
+
+/* Portrait phones */
+@media screen and (min-width: 667px) {
+}
+/* Phones */
+@media screen and (max-width: 767px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem auto;
+    .about-content {
+      text-align: center;
+      margin-top: 3rem;
+      padding: 0px 1rem;
+      p{
+        font-size: 3.8vmin;
+      }
+      h2{
+        font-size: 25px
+      }
+  }
+    img.swiper-lazy {
+      width: 100%;
+      border-radius: 8px;
+  }
+} 
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  font-size: 3vmin;
+}
+}
+/* Tablette */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    margin: 14rem auto;
+    .about-content {
+      margin-top: 3rem;
+      padding: 0px 3rem;
+  }
+    img.swiper-lazy {
+      width: 100%;
+  }
+} 
+}

@@ -1,0 +1,82 @@
+.footer-content {
+  color: white;
+}
+.footer-content .firstfooter {
+  background-color: #162e44;
+  font-size: 1.6vmin;
+}
+.footer-content .firstfooter .firstfooter-content {
+  max-width: 1124px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.footer-content .firstfooter .firstfooter-content .col1 h3 {
+  font-size: 4vmin;
+  margin-bottom: 2vmin;
+}
+.footer-content .firstfooter .firstfooter-content .col1 p {
+  margin-bottom: 1vmin;
+}
+.footer-content .firstfooter .firstfooter-content .col2 h3 {
+  margin-bottom: 2vmin;
+  font-size: 3vmin;
+}
+.footer-content .firstfooter .firstfooter-content .col2 p {
+  margin-bottom: 1vmin;
+}
+.footer-content .lastfooter {
+  background-color: #11263a;
+}
+.footer-content .lastfooter p {
+  padding-left: 5rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  font-size: 1.4vmin;
+  max-width: 1124px;
+  background-color: #11263a;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.3019607843);
+}
+
+/* Portrait phones */
+/* Phones */
+@media screen and (max-width: 767px) {
+  .footer-content .lastfooter p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 3.4vmin;
+  }
+  .footer-content .firstfooter .firstfooter-content {
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .footer-content .firstfooter .firstfooter-content .col1 h3 {
+    font-size: 7vmin;
+    margin-bottom: 2vmin;
+  }
+  .footer-content .firstfooter .firstfooter-content .col1 p {
+    font-size: 4.3vmin;
+  }
+  .footer-content .firstfooter .firstfooter-content .col2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .footer-content .firstfooter .firstfooter-content .col2 p {
+    margin-bottom: 3vmin;
+    font-size: 4.3vmin;
+  }
+  .footer-content .firstfooter .firstfooter-content .col2 h3 {
+    margin-bottom: 4vmin;
+    font-size: 6.5vmin;
+  }
+}
+/* Tablette */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer-content .firstfooter .firstfooter-content {
+    margin: auto 3.5rem;
+  }
+} /*# sourceMappingURL=footer.css.map */

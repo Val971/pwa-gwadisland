@@ -1,0 +1,11 @@
+/* Portrait phones */
+/* Phones */
+@media screen and (max-width: 767px) {
+  .offer-content-header h2 {
+    margin-bottom: 0rem;
+    font-size: 5vmin;
+    align-self: start;
+    color: #373f41;
+  }
+}
+/* Tablette */ /*# sourceMappingURL=Offers.css.map */

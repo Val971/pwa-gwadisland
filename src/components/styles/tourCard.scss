@@ -1,0 +1,59 @@
+.tour-card-content {
+  border: 1px solid #e1e1e1;
+  display: flex;
+  margin-bottom: 2rem;
+  .tour-card-desc {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 70px 30px 5%;
+    .desc{
+        letter-spacing: .025em;
+        color: #9b9b9b;
+        font-size: 0.9rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .star {
+        display: flex;
+        align-items: center;
+    }
+  }
+  .card-star {
+    margin-bottom: 0.7rem;
+    margin-top: 0.7rem;
+}
+  .ctn {
+    border-style: solid;
+    min-width: 160px;
+    color: #151515;
+    background-color: transparent;
+    border-color: #151515;
+    margin-top: 25px;
+    min-width: 170px;
+    padding: 17px 28px 15px;
+  }
+}
+/* Portrait phones */
+@media screen and (min-width: 667px) {
+}
+/* Phones */
+@media screen and (max-width: 767px) {
+  .tours-content{
+    margin-top: 7rem;
+  }
+  .tour-card-content {
+    img{
+      width: 100%;
+    }
+  .tour-card-desc {
+    background: #fff;
+}}
+}
+/* Tablette */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .tour-card-content {
+    img{
+      width: 50%;
+    }
+  }
+}

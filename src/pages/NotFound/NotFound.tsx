@@ -5,9 +5,11 @@ import Typography from '@mui/material/Typography';
 import { CenteredFlexBox, FullSizeCenteredFlexBox } from '@/components/styled';
 import { giphy404, messages } from '@/config';
 
+import './notFound.scss';
+
 function NotFound() {
   return (
-    <Container sx={{ height: '100%' }}>
+    <Container className="notfound-content" sx={{ height: '100%' }}>
       <FullSizeCenteredFlexBox flexDirection="column">
         <iframe
           src={giphy404}

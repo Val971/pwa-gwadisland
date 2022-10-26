@@ -24,6 +24,8 @@
 
         .textfild-1 {
           grid-column: 1 span;
+          color: white!important;
+          border-color: white !important;
         }
         .textfild-2 {
           grid-column: 1 span;
@@ -46,12 +48,15 @@
       }
     }
   }
-  .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  label#outlined-basic-label {
     color: white;
-  }
-  .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
-    border-color: white !important;
-  }
+}
+form .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: #fff!important;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  color: #fff!important;
+}
 }
 
 /* Portrait phones */

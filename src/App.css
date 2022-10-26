@@ -6,6 +6,7 @@
   box-sizing: border-box;
   /* font-family: "Montserrat", sans-serif, Arial, sans-serif; */
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  /* font-family: Proxima Vara,Arial,Helvetica,Sans,Sans-Serif; */
 }
 a {
   text-decoration: none;
@@ -18,6 +19,7 @@ li {
 body,
 html {
   overflow-x: hidden;
+  background-color: #f9f9f9;
 }
 
 /* Portrait phones */
