@@ -45,37 +45,31 @@
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.5",
     "@types/react-router-dom": "^5.3.3",
-    "@typescript-eslint/eslint-plugin": "^5.26.0",
-    "@typescript-eslint/parser": "^5.26.0",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
     "@vitejs/plugin-react": "^1.3.2",
-    "eslint": "^8.16.0",
-    "eslint-plugin-react": "^7.30.0",
+    "eslint": "^8.26.0",
+    "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-react-hooks": "^4.5.0",
     "https-localhost": "^4.7.1",
     "husky": "^8.0.1",
-    "lint-staged": "^12.4.2",
+    "lint-staged": "^12.5.0",
     "prettier": "2.6.2",
     "typescript": "^4.7.2",
     "vite": "^2.9.9",
     "vite-plugin-pwa": "^0.12.0"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --write"
-    ],
-    "src/**/*.{js,jsx,ts,tsx,json}": [
-      "eslint --max-warnings=0"
+    "*.{js,css,json,md,ts,tsx}": [
+      "prettier --write",
+      "git add"
     ]
-  },
-  "author": {
-    "name": "Suren Atoyan",
-    "email": "contact@surenatoyan.com",
-    "url": "http://surenatoyan.com/"
   },
   "keywords": [
     "react",
     "pwa",
     "starter-kit",
-    "vite"
+    "vite",
+    "MUI"
   ]
 }
