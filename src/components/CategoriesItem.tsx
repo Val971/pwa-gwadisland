@@ -14,7 +14,7 @@ export default function CategoriesItem({ post, handleViewPost }: any) {
     <div className="post-content" onClick={() => handleViewPost(post.id)}>
       <Card>
         <CardActionArea>
-          <LazyLoad height={140}>
+          <LazyLoad width={180} height={140}>
             <img alt={`${post.title}`} style={{ height: '140px' }} src={`${post.cover}`} />
           </LazyLoad>
           <CardContent>

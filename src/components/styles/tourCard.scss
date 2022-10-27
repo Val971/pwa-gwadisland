@@ -40,13 +40,30 @@
 @media screen and (max-width: 767px) {
   .tours-content{
     margin-top: 7rem;
+
+  }.css-ryrseu-MuiRating-root {
+    font-size: 1rem;
   }
   .tour-card-content {
+    flex-direction: row;
+    height: 190px;
+    margin-bottom: 0.5rem;
     img{
       width: 100%;
+      object-fit: cover;
+    height: 100%;
+    }
+    .card-star{
+      font-size: 0.8rem;
     }
   .tour-card-desc {
     background: #fff;
+    padding: 20px 10px 20px 10px;
+    .desc{
+      margin-top: 1rem;
+      margin-bottom: 0rem;
+      width: 10rem;
+  }
 }}
 }
 /* Tablette */

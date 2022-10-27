@@ -50,7 +50,7 @@ export default function About() {
   };
   return (
     <div id="about" className="about">
-      <LazyLoad>
+      <LazyLoad height={235} width={343}>
         <img
           alt="About img"
           className="swiper-lazy"

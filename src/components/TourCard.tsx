@@ -1,3 +1,4 @@
+import { isMobile } from 'react-device-detect';
 import { MdLocationOn } from 'react-icons/md';
 import LazyLoad from 'react-lazy-load';
 import { Link } from 'react-router-dom';
@@ -21,12 +22,14 @@ export default function TourCard({ post, handleViewTour }: any) {
         <div className="star">
           <Rating name="read-only" value={post.stars} readOnly />({post.stars})
         </div>
-        <p className="desc">{post.desc}</p>
-        <li>
-          <Link className="ctn" to="/register">
-            Read More
-          </Link>
-        </li>
+        <p className="desc">{post.desc.substring(0, 60)}...</p>
+        {!isMobile && (
+          <li>
+            <Link className="ctn" to="/register">
+              Read More
+            </Link>
+          </li>
+        )}
       </div>
     </div>
   );
